@@ -1,0 +1,27 @@
+.buttons-wrapper{
+
+  /*background-color: red;*/
+}
+.buttons-wrapper-page6{
+  padding-top:  20px;
+}
+.submit-button{
+  color:green !important;
+  background-color: green !important;
+
+}
+
+@media(min-width: 600px) {
+  .buttons-wrapper{
+    margin-top: 70px;
+    /* background-color: red; */
+  }
+  .buttons-wrapper-page6{
+    padding-top:  20px;
+  }
+  .submit-button{
+    color:green !important;
+    background-color: green !important;
+
+  }
+}

@@ -1,0 +1,9 @@
+
+.main-background{
+  background: blue;
+  /*background: linear-gradient(to top right, #d38312 , #a83279);*/
+    /*background: linear-gradient(to top right, #70e1f5 , #6e48aa);*/
+    /*background: linear-gradient(to top right, #6e48aa -20%,#9d50bb );*/
+    background: linear-gradient(to top right, #f0c27b -20%,#4b1248 );
+
+}

@@ -1,0 +1,159 @@
+.title-check{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #4b1248;
+}
+.title-check-answers{
+  margin-top: -17px;
+  margin-bottom: -15px;
+  color: #4b1248;
+}
+.mobile-page-scroll{
+  overflow-y: auto;
+  height: 250px;
+}
+.personal-wrapper{
+  vertical-align: middle;
+}
+.personal-details{
+  display: inline-block;
+  min-width: 60%;
+  text-align: left;
+
+}
+.personal-details h2{
+  font-size: 14px;
+  color: #f0c27b;
+}
+.personal-details h2,h5{
+  padding: 0;
+  margin: 0;
+  color: #FFECB3;
+}
+.icon{
+  display: inline-block;
+  align-content: center;
+  vertical-align: top;
+
+
+}
+.icon-single-line{
+  display: inline-block;
+  align-content: center;
+  vertical-align: middle;
+}
+.iconstyle{
+  font-size: 26px !important;
+  padding-right: 10px;
+  color: #f0c27b !important;
+}
+.iconstyle-circle-human{
+  font-size: 26px !important;
+  padding-right: 10px;
+
+  color: #f0c27b !important;
+}
+.add-number-later{
+  font-size: 10px;
+}
+.questions-wrapper{
+
+
+  text-align: center;
+}
+.question{
+  display:block;
+  text-align: left;
+
+
+  padding-left: 10%;
+
+
+}
+.question-text{
+  color: #FFECB3;
+  font-size: 17px;
+}
+.question-answer{
+  font-size: 18px;
+  color: #4b1248;
+
+}
+/*=============DESKTOP==============*/
+@media(min-width: 600px) {
+  .title-check-answers{
+    padding: 15px 0 10px 0;
+    color: #4b1248;
+  }
+  .title-check{
+    padding: 15px 0 10px 0;
+    color: #4b1248;
+  }
+  .mobile-page-scroll{
+    /* overflow-y: hidden; */
+    height: 250px;
+  }
+  .personal-wrapper{
+
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align:top;
+    overflow: hidden;
+  }
+
+  .icon{
+    display: inline-block;
+    align-content: center;
+    vertical-align: top;
+  }
+  .icon-single-line{
+    display: inline-block;
+    align-content: center;
+    vertical-align: middle;
+
+  }
+  .iconstyle{
+    font-size: 26px !important;
+    padding-right: 10px;
+    color: #4b1248 !important;
+  }
+  .iconstyle-circle-human{
+    font-size: 26px !important;
+    color: #4b1248 !important;
+  }
+
+
+  .personal-details{
+    display: inline-block;
+    text-align: left;
+    height: 100%;
+  }
+  .personal-details h2,h5{
+    color: #4b1248 !important;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .questions-wrapper{
+    
+    text-align: center;
+  }
+  .question{
+    display:block;
+    text-align: left;
+
+    padding-left: 25%;
+  }
+  .question-text{
+    color:  #4b1248 !important;
+    font-size: 16px;
+  }
+  .question-answer{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+  }
+}

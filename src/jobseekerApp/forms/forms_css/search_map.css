@@ -1,0 +1,137 @@
+.mapsearch-title{
+  margin-left: 5px;
+  text-align: left;
+  margin-bottom: 0px;
+  color: #424242;
+  font-size: 18px;
+}
+.mapsearch-locator{
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  overflow: hidden;
+  margin-bottom: 8px;
+  margin-left: 2px;
+  color: #a6f4a7;
+  text-decoration: underline;
+}
+
+.gps-icon{
+  display: inline-block;
+  padding-right: 3px;
+  font-size: 32px !important;
+  color: #a6f4a7 !important;
+
+}
+.autolocator-wrapper{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .40)
+
+}
+/*==============JOB SEARCH SLIDE COMPONENT=================*/
+.search-title{
+  color: grey;
+  line-height: 50px;
+  position: absolute;
+  width: 90%;
+  margin: auto;
+
+  transform: translateX(-10px);
+}
+/*=================IOS SAFARI CSS==========================*/
+@media screen and (max-width: 767px) {
+    _::-webkit-full-page-media, _:future, :root .safari-gps-icon {
+      margin-bottom: 0px;
+      font-size: 32px !important;
+      transform: translateY(10px);
+    }
+    _::-webkit-full-page-media, _:future, :root .safari-locator {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      padding-bottom: 10px;
+    }
+    _::-webkit-full-page-media, _:future, :root .safari-search-title {
+      color: grey;
+      line-height: 50px;
+      position: absolute;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      transform: translateX(-10px);
+    }
+    _::-webkit-full-page-media, _:future, :root .safari-search-arrow-icon {
+      margin-left: 60% !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOR SMALLEST SCREENS MAX 320 px IPhone5*/
+/*=================IOS SAFARI CSS==========================*/
+@media screen and (max-width: 320px) {
+    _::-webkit-full-page-media, _:future, :root .safari-gps-icon {
+      margin-bottom: 0px;
+      font-size: 24px !important;
+      transform: translateY(10px);
+    }
+    _::-webkit-full-page-media, _:future, :root .safari-locator {
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      padding-bottom: 10px;
+    }
+    _::-webkit-full-page-media, _:future, :root .safari-search-title {
+      color: grey;
+      line-height: 50px;
+      position: absolute;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      transform: translateX(-10px);
+    }
+    _::-webkit-full-page-media, _:future, :root .safari-search-arrow-icon {
+      margin-left: 60% !important;
+    }
+}
+@media(max-width: 320px) {
+  .gps-icon{
+    display: inline-block;
+    padding-right: 3px;
+    font-size: 24px !important;
+    color: #a6f4a7 !important;
+
+  }
+  .mapsearch-locator{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    color: #a6f4a7;
+    text-decoration: underline;
+  }
+  .search-title{
+    color: grey;
+    line-height: 50px;
+    position: absolute;
+    width: 85%;
+    margin: auto;
+    transform: translateX(-15px);
+  }
+}
+/*======================================================================*/

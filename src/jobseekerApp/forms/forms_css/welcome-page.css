@@ -1,0 +1,110 @@
+
+.modal-wrapper{
+  margin-top: 50px;
+  height: 460px;
+  background: url('../../assets/working_area.jpg') no-repeat fixed center;
+  background-size: contain;
+  background-position:center;
+
+}
+.pl-flag-wrapper{
+  transform: translate(-90px, -30px);
+
+}
+.uk-flag-wrapper{
+
+  transform: translateX(0px);
+    transform: translateY(-30px);
+
+}
+.flag{
+  position: absolute;/*FOR SAFARAI IPHONE SUPPORT*/
+  width: 80px;
+  height: 60px;
+}
+.text-wrapper{
+
+  color: #795548;
+  font-size: 22px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  padding-top: 27px;
+
+}
+.cookies-disclaimer{
+  background-color: #FFF9C4;
+  width: 100%;
+  text-align: center;
+
+}
+.cookies-disc-txt{
+
+  color: black;
+  font-size: 12px;
+}
+.location-disclaimer{
+  margin-top: -35px;
+  padding-top: 1px;
+  background-color: #FFF9C4;
+  width: 100%;
+  text-align: center;
+
+}
+.location-disc-txt{
+
+  color: black;
+  font-size: 12px;
+}
+
+/*======== DESKTOP =======*/
+@media(min-width: 600px) {
+  .modal-wrapper{
+    height: 500px;
+    background: url('../../assets/working_area.jpg') no-repeat fixed center;
+    background-size: contain;
+
+  }
+  .pl-flag-wrapper{
+  /* transform: translateX(-150px); */
+  transform: translate(-180px, -70px);
+  }
+  .uk-flag-wrapper{
+transform: translate(30px, -70px);
+  }
+  .flag{
+    width: 150px;
+    height: 120px;
+  }
+  .text-wrapper{
+
+    color: #795548;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+  }
+  .cookies-disclaimer{
+    background-color: #FFF9C4;
+    width: 100%;
+    text-align: center;
+
+  }
+  .cookies-disc-txt{
+    padding: 5px 14px 14px 14px;
+    color: black;
+    font-size: 14px;
+  }
+  .location-disclaimer{
+    margin-top: -35px;
+    padding-top: 1px;
+    background-color: #FFF9C4;
+    width: 100%;
+    text-align: center;
+
+  }
+  .location-disc-txt{
+
+    color: black;
+    font-size: 14px;
+  }
+}

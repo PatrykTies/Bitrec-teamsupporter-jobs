@@ -1,0 +1,232 @@
+.main-wrapper{
+  height: 320px;
+  width: 70% ;
+  margin: -20px auto 20px auto;
+  text-align: center;
+  position: relative;
+  padding-top:40px;
+
+}
+
+.form-paper{
+
+  max-width: 700px;
+  margin: 0 auto;
+}
+/*=========FORM 1 ========*/
+.q-personal{
+font-size: 14px;
+/* color:  #BDBDBD; */
+text-decoration: underline;
+padding-bottom: 0px;
+margin-top: -20px;
+}
+/*info icon*/
+.info-icon{
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  top: 15px;
+  right: 0px;
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50%;
+
+}
+
+.info-wrapper{
+  margin-top: 0px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color:#bdbdbd;
+
+
+  /*width: calc(100% - 4px);
+  height: calc(100% - 40px);*/
+}
+
+.info-txt{
+  font-size: 12px;
+  color: #bdbdbd;
+}
+
+/*====FORM 2 SPECIFIC======*/
+
+.radios-wrapper{
+
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.gender-field-wrapper{
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+.gender-section{
+  margin-top: 30px;
+  margin-bottom: 33px;
+}
+.gender-title{
+  margin-top: -20px;
+  color: #BDBDBD;
+}
+
+.male-span{
+  margin-left: 4%;
+  margin-right: 63px;
+  color: #BDBDBD;
+}
+.female-span{
+  color: #BDBDBD;
+}
+.postal-code-wrapper{
+
+  margin-top: -20px;
+}
+.info-icon-postcode{
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  top: 270px;
+  right: 0px;
+  position: absolute;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 50%;
+  z-index: 9999;
+}
+/*====FORM 3 SPECIFIC======*/
+.q-contact{
+font-size: 14px;
+color:  #BDBDBD;
+text-decoration: underline;
+padding-bottom: 0px;
+margin-top: -20px;
+}
+
+/*====FORM 6 SPECIFIC======*/
+
+.questions-wrapper{
+  margin: auto;
+  width: 100%;
+  margin-top: 20px;
+
+}
+.q-txt{
+  margin-top: -10px;
+  color: #BDBDBD;
+}
+
+.q-field{
+  display: inline-block;
+  padding-top: 5px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+.q-weneedtoask{
+  font-size: 14px;
+  color:  #BDBDBD;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  margin-top: -30px;
+}
+
+/*====FORM 7 SPECIFIC======*/
+.q-availability{
+  font-size: 14px;
+  color:  #BDBDBD;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  margin-top: -30px;
+}
+
+.questions-wrapper-page7{
+  margin: auto;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+/*====FORM 8 - file uploaders SPECIFIC======*/
+.upload-title{
+  font-size: 14px;
+  color:  #BDBDBD;
+  text-decoration: underline;
+  margin-bottom: -10px;
+}
+.pick-upload{
+  color: #BDBDBD;
+  font-size: 14px;
+}
+.file-types{
+  margin-top: -10px;
+  font-size: 12px;
+  color:  #BDBDBD;
+}
+.file-size{
+  margin-top: -10px;
+  font-size: 12px;
+  color:  #BDBDBD;
+  margin-bottom: -20px;
+}
+.dropzone-box{
+
+  width: 280px;
+  height: 55px;
+  padding-top: 5px;
+  border: 2px dashed;
+  border-radius: 30px;
+  border-color: #33691E;
+  background-color: #C5E1A5;
+  margin: 20px auto 0;
+  cursor: pointer;
+}
+
+.file-page-wrapper{
+  height: 260px;
+  background-color: yellow;
+}
+.dropzone-mine{
+  background-color: green;
+  width: 50px;
+  height: 70px;
+}
+
+.file-upl-wrapper{
+  background-color: red;
+}
+/*====FORM 9 SPECIFIC======*/
+.question-wrapper{
+  padding-top: 15px;
+}
+.q-txt-page9{
+    color: #BDBDBD;
+}
+
+/*=============DESKTOP==============*/
+@media(min-width: 600px) {
+  .q-weneedtoask{
+    font-size: 14px;
+    color:  #BDBDBD;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  /*====FORM 7 SPECIFIC======*/
+  .q-availability{
+    font-size: 14px;
+    color:  #BDBDBD;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+}
